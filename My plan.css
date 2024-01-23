@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family:century;
+}
+  
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./15\ Best\ Things\ to\ do\ on\ Praslin\ Island\ -\ Complete\ PRASLIN\ TRAVEL\ GUIDE.jpeg);
+   height: 100vh;
+   /* Enlever la repetition d'une image */
+   background-size: cover;
+   background-position: center;
+}
+.logo a{
+    color:white;
+    padding: 0px 20px;
+    border:1px solid white;
+    position: absolute;
+    top:10px;
+    left:10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900 ;
+    text-shadow: rgb(0,0,0.7);
+}
+
+.logo span{
+    color:rgb(238,56,11);
+    font-weight: bold ;
+    font-size: 2rem;
+
+}
+ul{
+    list-style: none;
+    float:right;
+    display:flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration:none ;
+    color:white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    margin:10px;
+    font-weight: 500;
+    transition: 0.6s ease-in;
+
+}
+
+ul li a:hover{
+    background-color: white;
+    color:0;
+    }
+ul li :active a{
+    background: white;
+    color:black;
+}
+
+.principale{
+    max-width: 114rem; 
+    margin:0 auto;
+}
+.titre{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+
+}
+
+.titre h1{
+    color:rgb(254, 254, 254);
+    font-size: 50px;
+
+}
+.bouton{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+}
+
+.bouton a{
+    color:white;
+    text-decoration:none;
+    border:1px solid white;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 00.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
